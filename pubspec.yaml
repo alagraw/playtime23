@@ -1,0 +1,37 @@
+name: playtime
+description: Your table, your time.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 0.0.1+1
+
+environment:
+  sdk: '>=2.19.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  pubnub: ^4.2.1
+  flutter_native_splash: ^1.2.0
+
+  english_words: ^4.0.0
+  provider: ^6.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter_native_splash:
+  color: "#010c80"  # Set your desired background color
+  image: "assets/images/resize.png"  # Path to your splash screen image
+  fill: true
+
+flutter:
+  uses-material-design: true
+
+# fonts:
+#   - family: MaterialIcons
+#     fonts:
+#       - asset: fonts/MaterialIcons-Regular.ttf
